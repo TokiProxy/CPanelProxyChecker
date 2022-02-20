@@ -1,3 +1,4 @@
 random_chain
-socks5
+proxy_dns
 [ProxyList]
+socks5

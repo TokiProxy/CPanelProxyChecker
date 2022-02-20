@@ -7,7 +7,7 @@ const config = {
 }
 
 // Create txt file
-fs.writeFile('data.txt', 'random_chain\nsocks5\n[ProxyList]\n', (err) => {
+fs.writeFile('data.txt', 'random_chain\nproxy_dns\n[ProxyList]\nsocks5\n', (err) => {
     if (err) throw err;
     console.log('File created');
 });
