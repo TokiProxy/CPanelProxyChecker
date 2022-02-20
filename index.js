@@ -1,6 +1,6 @@
 const axios = require('axios');
 const fs = require('fs');
-const token = "QOEf6m6tOMPBQt5siOGiZFhzgcC6JI0AzFlU4FtqkVN6uV6yEgLNwb9W5ah6FtyC"
+const token = "Token Here"
 
 const config = {
     headers: { Authorization: `Bearer ${token}` }
