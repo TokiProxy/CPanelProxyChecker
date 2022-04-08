@@ -12,7 +12,7 @@ fs.writeFile('data.txt', 'random_chain\nproxy_dns\n[ProxyList]\nsocks5\n', (err)
     console.log('File created');
 });
 
-axios.get('https://proxy.olliwes.me/api/proxies/socks5', config).then(response => {
+axios.get('https://tokiproxy.co.uk/api/proxies/socks5', config).then(response => {
 
     const proxies = response.data;
     const ips = proxies.map(proxy => proxy.ip);
